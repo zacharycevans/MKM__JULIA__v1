@@ -19,7 +19,7 @@ Not every capability is exercised by the example below.
 
 ## Included example: Acetic acid decomposition on Pd(111)
 
-The [`sample/`](sample/) directory contains an XML configuration, the Julia core source file, simulation outputs, a run log, and plots for an acetic acid decomposition model on Pd(111).
+The [`AcOH_Decomp/`](Examples/AcOH_Decomp_01/300 K) directory contains an XML configuration, simulation outputs, a run log, and plots for an acetic acid decomposition model on Pd(111) at 300 K.
 
 **Important:** This example uses **coverage-independent rate constants/energetics**. It does **not** demonstrate the framework's coverage-dependent interpolation functionality.
 
@@ -44,27 +44,27 @@ A **stable state** was detected, but a **steady state** was not. These are disti
 
 **Species fractions**
 
-![Species fractions over time](sample/Plots/pictures/RunData__PLOTS__AcOH_Decomp_01__300K__Species_Fractions.png)
+![Species fractions over time](Examples/AcOH_Decomp_01/300 K/Plots/pictures/RunData__PLOTS__AcOH_Decomp_01__300K__Species_Fractions.png)
 
 **Reaction-pair rates**
 
-![Reaction-pair rates](sample/Plots/pictures/RunData__PLOTS__AcOH_Decomp_01__300K__Reactions_PairRates.png)
+![Reaction-pair rates](Examples/AcOH_Decomp_01/300 K/Plots/pictures/RunData__PLOTS__AcOH_Decomp_01__300K__Reactions_PairRates.png)
 
 **Degree of rate control for acetic acid**
 
-![Degree of rate control](sample/Plots/pictures/RunData__PLOTS__AcOH_Decomp_01__300K__DRC_CH3COOH(g).png)
+![Degree of rate control](Examples/AcOH_Decomp_01/300 K/Plots/pictures/RunData__PLOTS__AcOH_Decomp_01__300K__DRC_CH3COOH(g).png)
 
 **Degree of selectivity control: CO₂ relative to CO**
 
-![Degree of selectivity control](sample/Plots/pictures/RunData__PLOTS__AcOH_Decomp_01__300K__DSC_CO2(g)_CO(g).png)
+![Degree of selectivity control](Examples/AcOH_Decomp_01/300 K/Plots/pictures/RunData__PLOTS__AcOH_Decomp_01__300K__DSC_CO2(g)_CO(g).png)
 
-Additional plots and numerical outputs are available under [`sample/Plots/pictures/`](sample/Plots/pictures/) and [`sample/`](sample/).
+Additional plots and numerical outputs are available under [`Examples/AcOH_Decomp_01/300 K/Plots/pictures/`](Examples/AcOH_Decomp_01/300 K/Plots/pictures/) and [`AcOH_Decomp_01/`](Examples/AcOH_Decomp_01/300 K/).
 
 ### Inputs and outputs
 
-- [`AcOH_Decomp_01.xml`](sample/AcOH_Decomp_01.xml): Model configuration and run options.
-- [`RunData__OUTPUT__General.txt`](sample/RunData__OUTPUT__General.txt): Recorded run settings and summary.
-- [`RunLog.txt`](sample/RunLog.txt): Execution log.
+- [`AcOH_Decomp_01.xml`](Examples/AcOH_Decomp_01/300 K/AcOH_Decomp_01.xml): Model configuration and run options.
+- [`RunData__OUTPUT__General.txt`](Examples/AcOH_Decomp_01/300 K/RunData__OUTPUT__General.txt): Recorded run settings and summary.
+- [`RunLog.txt`](Examples/AcOH_Decomp_01/300 K/RunLog.txt): Execution log.
 - Other `RunData__OUTPUT__*.txt` files: Species, reaction, energy, DRC, and DSC results.
 
 ## Running the code
