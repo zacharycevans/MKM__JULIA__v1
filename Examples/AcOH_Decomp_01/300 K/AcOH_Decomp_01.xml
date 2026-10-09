@@ -8911,7 +8911,6 @@
 		<RUNS_OPTION>
 			<run>AcOH_Decomp_01</run>
 			<option>qfunc_vib_adsmode</option>
-			<value>removelowest</value>
 		</RUNS_OPTION>
 		<RUNS_OPTION>
 			<run>AcOH_Decomp_01</run>
