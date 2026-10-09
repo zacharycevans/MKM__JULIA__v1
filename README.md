@@ -19,7 +19,7 @@ Not every capability is exercised by the example below.
 
 ## Included example: Acetic acid decomposition on Pd(111)
 
-The [`sample/`](Examples/AcOH_Decomp_01/) directory contains an XML configuration, the Julia core source file, simulation outputs, a run log, and plots for an acetic acid decomposition model on Pd(111).
+The [`AcOH_Decomp_01/`](Examples/AcOH_Decomp_01/) directory contains an XML configuration, the Julia core source file, simulation outputs, a run log, and plots for an acetic acid decomposition model on Pd(111).
 
 **Important:** This example uses **coverage-independent rate constants/energetics**. It does **not** demonstrate the framework's coverage-dependent interpolation functionality.
 
