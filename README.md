@@ -46,10 +46,6 @@ A **stable state** was detected, but a **steady state** was not. These are disti
 
 ![Species fractions over time](Examples/AcOH_Decomp_01/300%20K/Plots/pictures/RunData__PLOTS__AcOH_Decomp_01__300K__Species_Fractions.png)
 
-**Reaction-pair rates**
-
-![Reaction-pair rates](Examples/AcOH_Decomp_01/300%20K/Plots/pictures/RunData__PLOTS__AcOH_Decomp_01__300K__Reactions_PairRates.png)
-
 **Degree of rate control for acetic acid**
 
 ![Degree of rate control](Examples/AcOH_Decomp_01/300%20K/Plots/pictures/RunData__PLOTS__AcOH_Decomp_01__300K__DRC_CH3COOH%28g%29.png)
