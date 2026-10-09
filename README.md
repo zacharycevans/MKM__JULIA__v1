@@ -19,7 +19,7 @@ Not every capability is exercised by the example below.
 
 ## Included example: Acetic acid decomposition on Pd(111)
 
-The [`AcOH_Decomp_01/300K/`](Examples/AcOH_Decomp_01/300 K/) directory contains an XML configuration, simulation outputs, a run log, and plots for an acetic acid decomposition model on Pd(111).
+The [`AcOH_Decomp_01`](Examples/AcOH_Decomp_01/300 K/) directory contains an XML configuration, simulation outputs, a run log, and plots for an acetic acid decomposition model on Pd(111) at 300 K.
 
 **Important:** This example uses **coverage-independent rate constants/energetics**. It does **not** demonstrate the framework's coverage-dependent interpolation functionality.
 
